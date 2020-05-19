@@ -1,8 +1,8 @@
-# Responsive Navbar with SmoothScroll and Spy Scroll in vanilla JS.
+# Vanilla JS Responsive Nav with Smooth Scroll + Spy Scroll
 
 ![Responsive Navbar](README.png?raw=true "Responsive Navbar")
 
-### <a href="https://marius-adam.github.io/local-storage-todo-list/">LIVE DEMO</a>
+### <a href="https://marius-adam.github.io/responsive-navbar/">LIVE DEMO</a>
 
 ## Description
 
@@ -13,14 +13,16 @@ I found Approach 3 (window.requestAnimationFrame()) to have the best browser com
 
 Smooth Scroll
 
-<ol>
-  <li>Approach 1: window.scrollTo() - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo">MDN Docs</a></li>
-  <li>Approach 2: element.scrollIntoView() - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView">MDN Docs</a></li>
-  <li>Approach 3: window.requestAnimationFrame() - <a href="https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame">MDN Docs</a></li>
-</ol>
+<ul>
+  <li>Approach 1: window.scrollTo() - Scrolls to a particular set of coordinates in the document -- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo">MDN Docs</a> </li>
+  <br>
+  <li>Approach 2: element.scrollIntoView() - Scrolls the element's parent container such that the element on which scrollIntoView() is called is visible to the user -- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView">MDN Docs</a></li>
+  <br>
+  <li>Approach 3: window.requestAnimationFrame() - Tells the browser that you wish to perform an animation and requests that the browser calls a specified function to update an animation before the next repaint. The method takes a callback as an argument to be invoked before the repaint -- <a href="https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame">MDN Docs</a></li>
+</ul>
 
 ScrollSpy
 
 <ol>
-  <li>Intersection Observer API - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">MDN Docs</a></li>
+  <li>Intersection Observer API - The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport -- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">MDN Docs</a></li>
 </ol>
