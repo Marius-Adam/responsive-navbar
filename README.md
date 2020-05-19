@@ -11,8 +11,7 @@ I found Approach 3 (window.requestAnimationFrame()) to have the best browser com
 
 ## Functionality
 
-<strong>Smooth Scroll</stron>
-
+<strong>Smooth Scroll</strong>
 <ul>
   <li>Approach 1: window.scrollTo() - Scrolls to a particular set of coordinates in the document -- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo">MDN Docs</a> </li>
   <br>
